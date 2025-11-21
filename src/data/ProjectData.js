@@ -1,14 +1,6 @@
 // --------------------------------------- Project List
 export const ProjectList = [
-  {
-    img: "/ykte-feature-graphic.png",
-    title: "YouKnowTheEnding",
-    description:
-      "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
-    tech_stack: ["React Native", "Google Cloud", "NextJs", "TailwindCSS"],
-    github_url: "",
-    demo_url: "https://youknowtheending.net/",
-  },
+
   {
     img: "/renr-responsive.png",
     title: "RENR Safety App",
@@ -20,11 +12,11 @@ export const ProjectList = [
   },
   {
     img: "/mymind-responsive.png",
-    title: "MyMind",
+    title: "My Mind",
     description:
       "An app where users can purchase online therapy sessions and chat with their therapists.",
     tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
-    github_url: "https://github.com/salesp07/MyMind---Copy",
+    github_url: "",
     demo_url: "https://mymindweb.vercel.app/",
   },
   {
@@ -33,16 +25,16 @@ export const ProjectList = [
     description:
       "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
     tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/Pokedex-ReactApp",
+    github_url: "",
     demo_url: "https://pokedex-salesp07.netlify.app/",
   },
   {
     img: "/jobDetect.png",
-    title: "JobDetect",
+    title: "Job Detect",
     description:
       "An app to detect if a job posting is a scam or not using its description.",
     tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "https://github.com/salesp07/JobDetectNode",
+    github_url: "",
     demo_url: "https://jobdetective.onrender.com/",
   },
 ];

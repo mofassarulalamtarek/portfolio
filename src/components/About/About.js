@@ -17,29 +17,16 @@ function About() {
         <div className="BigCard">
           <ScrollAnimation animateIn="fadeInLeft">
             <Image
-              src="/man-svgrepo-com.svg"
-              alt="man-svgrepo"
+              src="/man-svgrepo-com.png"
+              alt="Tarek"
             />
           </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-              Hello! My name is <strong>Mofassirul Alam Tarek</strong>, and I’m originally from Bangladesh. Over the years, I’ve built a strong foundation in IT through diverse professional experiences that have sharpened my technical expertise, problem-solving abilities, and adaptability. My journey has been driven by a passion for technology, innovation, and delivering reliable infrastructure solutions that empower businesses to perform at their best.
+              Hello! I am <strong>Mofassirul Alam Tarek</strong>,an IT Systems and Network Operations Specialist from Bangladesh with extensive experience in managing and optimizing data center environments. Skilled in VMware and vCenter ecosystems (ESXi, Horizon, NSX, Velocloud), Windows/Linux server administration, and enterprise networking with Cisco, Sophos, Huawei, Meraki, Netgear, and BDCOM technologies, I bring proven expertise in ensuring system reliability, scalability, and security. My background spans Active Directory, Exchange, Microsoft 365, AWS, Azure, and Veeam backup solutions, complemented by proficiency in endpoint security, antivirus management, IPTSP systems, and CCTV infrastructure — all driven by a passion for technology, innovation, and delivering robust infrastructure solutions that empower businesses.
             </ScrollAnimation>
 
             <br /><br />
-
-            <ScrollAnimation animateIn="fadeInLeft">
-              Seasoned IT Systems and Network Operations Specialist with extensive hands-on experience in managing and optimizing data center environments. Proven expertise across virtualization, cloud, and enterprise networking, with a strong record of ensuring system reliability, scalability, and security.
-
-              Highly skilled in VMware and vCenter ecosystems — including ESXi, Horizon, NSX, and Velocloud — as well as Windows and Linux server administration. Adept at architecting and supporting complex enterprise networks featuring Sophos and Cisco firewalls, and networking technologies from Cisco, Huawei, Meraki, Netgear, and BDCOM.
-            </ScrollAnimation>
-
-            <br /><br />
-
-            <ScrollAnimation animateIn="fadeInLeft">
-              Comprehensive background in Active Directory, Exchange, Microsoft 365, AWS, Azure, and Veeam backup solutions. Demonstrated proficiency in endpoint security, antivirus management, IPTSP systems, and CCTV infrastructure.
-            </ScrollAnimation>
-
     
             <Technologies>
               {stackList.map((stack, index) => (
